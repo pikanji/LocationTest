@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    android:layout_gravity="bottom|fill_vertical">
+    <TextView
+        android:layout_width="fill_parent"
+        android:id="@+id/text_result"
+        android:text="@string/default_text"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical" />
+    <Button
+        android:id="@+id/button_clear"
+        android:text="@string/button_clear"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" />
+</LinearLayout>
